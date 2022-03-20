@@ -1,0 +1,84 @@
+
+[
+  {
+    "pergunta": "O que é o Angular CLI?",
+    "itemA": "Um framework",
+    "itemB": "Uma Ferramenta de liha de comando",
+    "itemC": "Uma linguagem de programação orientada a objetos",
+    "itemD": "Uma interface de desenvolvimento",
+    "resposta": "Uma Ferramenta de liha de comando"
+  },
+  {
+    "pergunta": "O que é o Java?",
+    "itemA": "Um framework",
+    "itemB": "Uma Ferramenta de liha de comando",
+    "itemC": "Uma linguagem de programação multiparadigmas",
+    "itemD": "Uma interface de desenvolvimento",
+    "resposta": "Uma linguagem de programação multiparadigmas"
+  },
+  {
+    "pergunta": "Como verificar o ip de sua rede local?",
+    "itemA": "Perguntando para alguém",
+    "itemB": "Através do comando mswin32info",
+    "itemC": "Através do comando ipconfig em SO Windows",
+    "itemD": "Através do manual do roteador",
+    "resposta": "Através do comando ipconfig em SO Windows"
+  },
+  {
+    "pergunta": "O que é Task Mining?",
+    "itemA": "Algo relacionado a robôs",
+    "itemB": "Uma técnica para minerar dados",
+    "itemC": "Um tipo de configuração de sistema",
+    "itemD": "Uma metodologia de pesquisa",
+    "resposta": "Uma técnica para minerar dados"
+  },
+  {
+    "pergunta": "O que é Git?",
+    "itemA": "Um software para printar a tela",
+    "itemB": "Um comando de terminal linux",
+    "itemC": "Através do comando ipconfig em SO Windows",
+    "itemD": "Um versionador de código fonte",
+    "resposta": "Um versionador de código fonte"
+  },
+  {
+    "pergunta": "O que é DTO?",
+    "itemA": "Perguntando para alguém",
+    "itemB": "Uma interface",
+    "itemC": "Um objeto de transferência de dados",
+    "itemD": "Um algoritmo de transferência de dados",
+    "resposta": "Um objeto de transferência de dados"
+  },
+  {
+    "pergunta": "O que é CSS?",
+    "itemA": "Um compilador como o gcc",
+    "itemB": "Uma folha de style em cascata",
+    "itemC": "Um binário executável do linux",
+    "itemD": "Um tipo de arquivo utilizado pelo sistema",
+    "resposta": "Uma folha de style em cascata"
+  },
+  {
+    "pergunta": "Como realizar pesquisa pelo google através do duckduckgo?",
+    "itemA": "Utilizando o comando !g",
+    "itemB": "Pesquisando pelo google e depois pelo que deseja",
+    "itemC": "Não faço a minima ideia de como fazer isso",
+    "itemD": "Utilizando o comando search:",
+    "resposta": "Utilizando o comando !g"
+  },
+  {
+    "pergunta": "O que é input lag?",
+    "itemA": "Perguntando para alguém",
+    "itemB": "Usado por computadores",
+    "itemC": "Uma forma de intrada de dados do SO Windows",
+    "itemD": "O atraso para a realização da entrada de dados",
+    "resposta": "O atraso para a realização da entrada de dados"
+  },
+  {
+    "pergunta": "O que é o Zhshell?",
+    "itemA": "Perguntando para alguém",
+    "itemB": "Um comando do windows",
+    "itemC": "Um shell para terminais linux",
+    "itemD": "Através do manual do roteador",
+    "resposta": "Um shell para terminais linux"
+  }
+]
+

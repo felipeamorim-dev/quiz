@@ -1,0 +1,40 @@
+<main class="main">
+  <section class="container" *ngIf="ativo">
+    <h1>Bem vindo ao Quiz de Tecnologia da Informação!</h1>
+    <div class="container2">
+      <img src="./../../../assets/img/fundo.jpg" alt="">
+      <p class="ajuste">
+        Esse jogo de pergundas e respostas terá 10 questões de conhecimento geral sobre TI. Cada pergunta terá 4 alternativas, dentre elas apenas haverá uma alternativa correta.
+        No final da partida será exibido seu percentual de acerto. Para iniciar o jogo click no botão abaixo.
+      </p>
+      <P class="alinhamento">
+        <strong>Espero que se divirta. Boa sorte!</strong>
+      </P>
+      <button (click)="show()" class="btn alinhamento text">Iniciar</button>
+    </div>
+  </section>
+
+  <section class="container" *ngIf="!ativo">
+    <h1 class="titulo">Perguntas</h1>
+    <div class="ui">
+      <h5>Respostas Certas: {{respostaCertas}} </h5>
+      <h5>Questões: {{index + 1}}/10 </h5>
+    </div>
+    <div class="container-flex">
+      <h2 class="style-text"> {{ qs[index].pergunta }}</h2>
+      <button class="btn-flex" (click)="submit(qs[index].itemA)">
+        <div class="flex-inline"> <span>A</span> <h3> {{ qs[index].itemA }} </h3></div>
+      </button>
+      <button class="btn-flex" (click)="submit(qs[index].itemB)">
+        <div class="flex-inline"> <span>B</span> <h3>{{ qs[index].itemB }}</h3></div>
+      </button>
+      <button class="btn-flex" (click)="submit(qs[index].itemC)">
+        <div class="flex-inline"> <span>C</span> <h3>{{ qs[index].itemC }}</h3></div>
+      </button>
+      <button class="btn-flex" (click)="submit(qs[index].itemD)">
+        <div class="flex-inline"> <span>D</span> <h3>{{ qs[index].itemD }}</h3></div>
+      </button>
+      <button class="btn alinhamento2 text" (click)="voltar()">Voltar</button>
+    </div>
+  </section>
+</main>

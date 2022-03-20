@@ -1,0 +1,138 @@
+
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  margin-top: 25px;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border: solid 5px;
+  border-color: rgb(140, 87, 190);
+}
+
+.container h1 {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.titulo{
+  font-size: 3rem;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container2 img {
+  margin-top: 50px;
+  align-self: center;
+  height: 250px;
+  width: 500px;
+}
+
+.ajuste {
+  margin: 25px 72px;
+  padding-left: 20px;
+}
+
+.alinhamento {
+  margin-left: 25px;
+  margin-bottom: 25px;
+}
+
+.text{
+  color: rgb(140, 87, 190);
+  font-size: 1.5rem;
+  font-family: Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 300;
+}
+
+.btn{
+  width: 150px;
+  height: 50px;
+  border: solid 3px;
+  border-radius: 2px;
+  border-color: rgb(140, 87, 190);
+  background-color: transparent;
+}
+.btn:hover{
+  background-color: rgb(140, 87, 190);
+  color: white;
+}
+
+.container-flex{
+  margin-left: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-flex{
+  width: 90%;
+  height: 60px;
+  border: solid 2px;
+  margin-bottom: 25px;
+  border-color: darkgoldenrod;
+  background-color: darkslategray;
+}
+
+.btn-flex:hover {
+  background-color: grey;
+}
+
+.btn-flex:active {
+  background-color: black;
+}
+
+.flex-inline{
+  display: flex;
+  align-items: center;
+  height: 55px;
+  gap: 10px;
+}
+
+.flex-inline span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 55px;
+  width: 55px;
+  background-color: rgb(140, 87, 190);
+}
+
+.flex-inline h3 {
+  color: white;
+  align-self: center;
+  width: 100%;
+}
+
+.style-text{
+  color: darkslategray;
+  margin: 15px;
+}
+
+.alinhamento2 {
+  margin-left: 25px;
+  align-self: flex-start;
+}
+
+.ui{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 25px;
+  padding: 0 25px;
+}
+
+.ui h5{
+  color: rgb(140, 87, 190);
+}

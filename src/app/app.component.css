@@ -1,0 +1,25 @@
+.header{
+  height: 72px;
+  width: auto;
+  background-color: white;
+  border-bottom: solid 5px;
+  border-color: rgb(140, 87, 190);;
+}
+
+.nav {
+  display: flex;
+  min-height: 72px;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav h1 {
+  font-size: 3rem;
+}
+
+.nav img {
+  margin-left: 45px;
+  height: 48px;
+}
+
+
